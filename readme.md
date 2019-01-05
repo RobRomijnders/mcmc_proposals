@@ -41,11 +41,11 @@ I want to add that each proposal distribution has its advantages and disadvantag
 # Results
 We need a metric to see how well the samples cover the entire distribution. Doing MCMC in the wild, this metric is very hard to find. We cannot evaluate the distribution, so how could we measure if samples covered it? However, we have the fortunate position that we CAN evaluate our distribution. Simply for the reason that this is a toy problem. As such, we will compare how fast the KL divergence between the _true_ distribution and emperical distribution goes to zero.
 
-![image_spherical_gaussian](?raw=true)
+![image_spherical_gaussian](https://github.com/RobRomijnders/mcmc_proposals/blob/master/mcmc_play/im/result/random_walk.png?raw=true)
 
-![image_gibbs](?raw=true)
+![image_gibbs](https://github.com/RobRomijnders/mcmc_proposals/blob/master/mcmc_play/im/result/gibbs.png?raw=true)
 
-![image_hmc](?raw=true)
+![image_hmc](https://github.com/RobRomijnders/mcmc_proposals/blob/master/mcmc_play/im/result/hmc.png?raw=true)
 
 # Discussion
 
